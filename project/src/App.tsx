@@ -1,4 +1,6 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 
@@ -24,7 +26,8 @@ function App() {
    <a href=""><p className='discount'>Акция</p></a>
    <a href=""><p className='news'>Новости</p></a>
    <a href=""><p className='contact'>Контакти</p></a>
-
+  {/*-----------------------------------------------------------------------------------------------*/}
+  
     </header>
     </>
   )

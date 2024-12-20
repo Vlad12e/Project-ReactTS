@@ -11,16 +11,20 @@
   transform: translateY(-70px);
   margin-left: 400px;
   color: #6B422B;
+  font-size: 32px;
+  
 }
 .undername_site {
   font-weight: 500;
   color: #BF957D;
-  transform: translateY(-70px);
+  transform: translateY(-85px);
   margin-left: 400px;
+  font-size: 16px;
 }
 .number__phone {
-  transform: translateY(-120px);
+  transform: translateY(-130px);
   margin-left: 700px;
+  font-size: 18px;
 }
 .call__back {  
   position: absolute;
@@ -44,9 +48,9 @@
   left: 760px;
 }
 .book__marks {
-  position: absolute;
-  top: 45px;
-  left: 1500px;
+  width: 7px;
+  height: 3.5px;
+  
 }
 .cart {
   position: absolute;
@@ -67,5 +71,46 @@
   font-size: 20px;
 }
 .home {
-  text-decoration: none;
+  position: absolute;
+  color: black;
+  top: 110px;
+  left: 800px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.about__us {
+  position: absolute;
+  color: black;
+  top: 110px;
+  left: 1100px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.discount {
+  position: absolute;
+  color: black;
+  top: 110px;
+  left: 1400px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.news {
+  position: absolute;
+  color: black;
+  top: 110px;
+  left: 1700px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.contact {
+  position: absolute;
+  color: black;
+  top: 110px;
+  left: 2000px;
+  font-weight: 900;
+  font-size: 20px; 
+}
+.Slider {
+  width: 100%;
+  height: 100%;
 }
