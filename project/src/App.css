@@ -1,42 +1,71 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.header__background {
+  height: 100px;
+  width: 2600px;
+  background-color: #F8F8F8;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.name__site {
+  transform: translateY(-70px);
+  margin-left: 400px;
+  color: #6B422B;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.undername_site {
+  font-weight: 500;
+  color: #BF957D;
+  transform: translateY(-70px);
+  margin-left: 400px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.number__phone {
+  transform: translateY(-120px);
+  margin-left: 700px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.call__back {  
+  position: absolute;
+  top: 60px;
+  left: 700px;
+  color: rgb(207, 156, 14);  
+  z-index: 10; 
 }
-
-.card {
-  padding: 2em;
+.search {
+  position: absolute;
+  border-color: rgb(231, 231, 230);
+  border-radius: 50px;
+  width: 300px;
+  height: 35px;
+  top: 20px;
+  left: 500px;
 }
-
-.read-the-docs {
-  color: #888;
+.search__button {
+  position: absolute;
+  top: 30px;
+  left: 760px;
+}
+.book__marks {
+  position: absolute;
+  top: 45px;
+  left: 1500px;
+}
+.cart {
+  position: absolute;
+  top: 40px;
+  left: 1700px;
+}
+.profile {
+  position: absolute;
+  top: 45px;
+  left: 2000px;
+}
+.catalog {
+  position: absolute;
+  color: #F9A82F;
+  top: 110px;
+  left: 400px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.home {
+  text-decoration: none;
 }

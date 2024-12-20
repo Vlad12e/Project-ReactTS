@@ -1,33 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <header>
+    <div className="header__background"></div>
+    <h1 className='name__site'>Керамикъ</h1>
+    <h4 className='undername_site'>фабрика декора</h4>
+    <h3 className='number__phone'>+380 95 486 8734</h3>
+    <a className='call__back' href='./index.html'>Обратный звонок</a>
+    <div className="search">
+    <input type="text" className='search' placeholder='Поиск'/>
+    <a href=""><img src="src/img/Vector.png" alt="" className='search__button' /></a>
+    </div>
+    <a href=""><img src="src/img/bookmarks.png" alt="" className='book__marks'/></a>
+    <a href=""><img src="src/img/cart.png" alt=""className='cart' /></a>
+    <a href=""><img src="src/img/profile.png" alt="" className='profile'/></a>
+    {/* ------------------------------------------------------------------------------------ */}
+   <a href=""><p className='catalog'>Каталог <img src="src/img/Vector (1).png" alt="" /></p></a>
+   <a href=""><p className='home'>Главная</p></a>
+   <a href=""><p className='about__us'>О нас</p></a>
+   <a href=""><p className='discount'>Акция</p></a>
+   <a href=""><p className='news'>Новости</p></a>
+   <a href=""><p className='contact'>Контакти</p></a>
+
+    </header>
     </>
   )
 }
