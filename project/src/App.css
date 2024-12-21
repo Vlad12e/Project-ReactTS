@@ -208,8 +208,3 @@ button {
   cursor: pointer; /* Курсор при наведении */  
   transition: background-color 0.3s; /* Плавный переход цвета */  
 }  
-
-/* Эффект при наведении на кнопку */  
-button:hover {  
-  background-color: #0056b3; /* Темный оттенок фона при наведении */  
-}
