@@ -1,0 +1,20 @@
+.Slider-container {
+    position: absolute;
+    right: 635px;
+    bottom: 100px;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+
+  .Slider-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+  }
+  
