@@ -1,20 +1,17 @@
 .Slider-container {
     position: absolute;
-    right: 635px;
-    bottom: 100px;
+    right: 0;
+    bottom: 180px;
     width: 100vw;
-    height: auto;
+    height: 600px;
     margin: 0;
     padding: 0;
-    position: relative;
     overflow: hidden;
   }
   
-
   .Slider-container img {
     width: 100%;
-    height: auto;
+    height: 650px;
     object-fit: cover;
-
   }
   

@@ -9,27 +9,27 @@
 }
 .name__site {
   transform: translateY(-70px);
-  margin-left: 400px;
+  margin-left: 200px;
   color: #6B422B;
-  font-size: 32px;
+  font-size: 24px;
   
 }
 .undername_site {
   font-weight: 500;
   color: #BF957D;
   transform: translateY(-85px);
-  margin-left: 400px;
-  font-size: 16px;
+  margin-left: 200px;
+  font-size: 14px;
 }
 .number__phone {
   transform: translateY(-130px);
-  margin-left: 700px;
+  margin-left: 500px;
   font-size: 18px;
 }
 .call__back {  
   position: absolute;
-  top: 60px;
-  left: 700px;
+  top: 50px;
+  left: 500px;
   color: rgb(207, 156, 14);  
   z-index: 10; 
 }
@@ -39,30 +39,25 @@
   border-radius: 50px;
   width: 300px;
   height: 35px;
-  top: 20px;
-  left: 500px;
+  top:18px;
+  left: 420px;
 }
 .search__button {
   position: absolute;
   top: 30px;
-  left: 760px;
+  left: 680px;
 }
 .book__marks {
   width: 30px;
   height: 25px;
   z-index: 20;
-  transform: translateY(-160px);
-  margin-left: 1500px;
-}
-.cart {
-  position: absolute;
-  top: 40px;
-  left: 1700px;
+  transform: translateY(-150px);
+  margin-left: 1300px;
 }
 .profile {
   position: absolute;
   top: 45px;
-  left: 2000px;
+  left: 1700px;
 }
 .catalog {
   position: absolute;
@@ -119,10 +114,10 @@
 .slider__button {
   position: absolute;
   z-index: 10;
- bottom: 655px;
- font-size: 20px;
- left: 490px;
-  width: 163px;
+ bottom: 290px;
+ font-size: 16px;
+ left: 460px;
+  width: 133px;
   height: 52px;
   border-radius: 100px;
   font-weight: 700;
@@ -131,68 +126,55 @@
   background-color: #F9A82F;
 }
 
-/* Стили для модального окна */  
-.modal {  
-  display: flex;  
-  position: fixed;  
-  z-index: 1000;  
-  left: 0;  
-  top: 0;  
-  width: 100%;  
-  height: 100%;  
-  background-color: rgba(0,0,0,0.5); /* Полупрозрачный фон */  
-  justify-content: center; /* Центрируем модальное окно */  
-  align-items: center; /* Центрируем модальное окно */  
-}  
-
-.modal__content {  
-  background-color: #fefefe;  
-  padding: 20px;  
-  border: 1px solid #888;  
-  width: 300px; /* Ширина модального окна */  
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень для модального окна */  
-  position: relative; /* Относительное позиционирование */  
-}  
-
 .close {  
   color: #aaa;  
   float: right;  
   font-size: 28px;  
   font-weight: bold;  
-  cursor: pointer; /* Курсор как указатель */  
+  cursor: pointer;  
 }  
 
 .close:hover,  
 .close:focus {  
-  color: black; /* Цвет текста при наведении */  
+  color: black; 
 }
 
 /* Основной стиль для контейнера корзины */  
-.cart {  
+.cart__modal {  
+  width: 140px;
   position: fixed; /* Фиксированное положение */  
-  top: 20px;      /* Отступ от верхней границы */  
+  top: 17px;
   right: 20%;    /* Отступ от правой границы */  
-  width: 140px;  /* Ширина корзины */  
   padding: 20px; /* Внутренние отступы */  
-  background-color: #f9f9f9; /* Цвет фона */  
-  z-index: 1000; /* Чтобы корзина всегда была выше других элементов */  
+  border-radius: 8px; /* Скругленные углы */  
+  z-index: 100; /* Чтобы корзина всегда была выше других элементов */  
+  background-color: white;
+}  
+.cart {  
+  width: 65px;
+  position: absolute;
+  top: 17px;
+  right: 20%;    /* Отступ от правой границы */  
+  padding: 20px; /* Внутренние отступы */  
+  border-radius: 8px; /* Скругленные углы */  
+  z-index: 100; /* Чтобы корзина всегда была выше других элементов */  
 }  
 
 /* Заголовок корзины */  
-.cart h2 {  
+.cart__modal h2 {  
   margin: 0 0 15px; /* Отступы для заголовка */  
   font-size: 20px; /* Размер шрифта */  
 }  
 
 /* Список товаров */  
-.cart ul {  
+.cart__modal ul {  
   list-style-type: none; /* Без маркировки списка */  
   padding: 0; /* Убираем внутренние отступы */  
   margin: 0; /* Убираем внешние отступы */  
 }  
 
 /* Элементы списка */  
-.cart li {  
+.cart__modal li {  
   padding: 10px 0; /* Внутренние отступы для элементов списка */  
   border-bottom: 1px solid #eee; /* Разделитель между элементами списка */  
 }  
@@ -208,3 +190,73 @@ button {
   cursor: pointer; /* Курсор при наведении */  
   transition: background-color 0.3s; /* Плавный переход цвета */  
 }  
+
+/* Эффект при наведении на кнопку */  
+button:hover {  
+  background-color: #0056b3; /* Темный оттенок фона при наведении */  
+}
+
+.slider__h1 {
+  position: relative;
+  left: 460px;
+  bottom: -130px;
+  z-index: 10;
+  color: white;
+}
+.slider__p {
+  position: relative;
+  z-index: 10;
+  left: 460px;
+  bottom: -150px;
+  color: white;
+  
+}
+
+/* Фон модального окна */  
+.profile__modal {  
+  position: fixed; /* Фиксированное позиционирование, чтобы охватить весь экран */  
+  top: 50%; /* Центрирование по вертикали */  
+  left: 50%; /* Центрирование по горизонтали */  
+  transform: translate(-50%, -50%); /* Корректировка для истинного центрирования */  
+  width: 300px; /* Задание фиксированной ширины */  
+  background-color: white; /* Белый фон для модального окна */  
+  padding: 20px; /* Внутренние отступы */  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Тень вокруг модального окна */  
+  border-radius: 8px; /* Скругленные углы */  
+  z-index: 1000; /* Убедитесь, что оно выше другого контента */  
+}  
+
+/* Стиль заголовка внутри модального окна */  
+.profile__modal h2 {  
+  margin: 0; /* Удаление отступов по умолчанию */  
+  font-size: 24px; /* Увеличение размера шрифта для заголовка */  
+  font-weight: bold; /* Жирный текст */  
+}  
+
+/* Стиль абзаца в модальном окне */  
+.profile__modal p {  
+  margin: 10px 0; /* Добавление отступов вокруг абзаца */  
+  color: #555; /* Более светлый серый цвет для читабельности текста */  
+}  
+
+/* Стиль кнопок */  
+.profile__modal button {  
+  background-color: #007bff; /* Основной цвет */  
+  color: white; /* Белый текст */  
+  border: none; /* Удаление границы */  
+  padding: 10px 15px; /* Отступы */  
+  border-radius: 5px; /* Скругленные углы */  
+  cursor: pointer; /* Курсор в виде руки при наведении */  
+  font-size: 16px; /* Размер шрифта */  
+}  
+
+/* Эффект наведения на кнопку */  
+.profile__modal button:hover {  
+  background-color: #0056b3; /* Темно-синий цвет при наведении */  
+}  
+
+/* Специфические стили для кнопки закрытия */  
+.profile__modal button {  
+  display: block; /* Обеспечение блочного отображения */  
+  margin: 0 auto; /* Центрирование кнопки */  
+}
